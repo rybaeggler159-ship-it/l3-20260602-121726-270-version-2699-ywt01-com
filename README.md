@@ -1,16 +1,17 @@
-﻿# website-upload-20260602-121726-270
+# 高分日韩电影 纯静态电影网站
 
-Batch 270 of 31. Contains extracted static website versions. The original zip files are not committed.
+生成时间：2026-05-25 16:24:58
 
-| Directory | Source zip |
-| --- | --- |
-| version-2691 | project-bolt-sb1-v9ckpgmz - 副本-chatgpt (1).zip |
-| version-2692 | project-bolt-sb1-v9ckpgmz-chatgpt (1).zip |
-| version-2693 | project-bolt-sb1-vauy8jnt - 副本-chatgpt (1).zip |
-| version-2694 | project-bolt-sb1-vauy8jnt-chatgpt (1).zip |
-| version-2695 | project-bolt-sb1-vcfpcuey - 副本-chatgpt (1).zip |
-| version-2696 | project-bolt-sb1-vcfpcuey-chatgpt (1).zip |
-| version-2697 | project-bolt-sb1-vcmjtmbx - 副本-chatgpt (1).zip |
-| version-2698 | project-bolt-sb1-vcmjtmbx-chatgpt (1).zip |
-| version-2699 | project-bolt-sb1-vcvpcja1 - 副本-chatgpt (1).zip |
-| version-2700 | project-bolt-sb1-vcvpcja1-chatgpt (1).zip |
+## 文件说明
+
+- `index.html`：首页，包含静态 Hero 轮播、热播榜入口、分类入口与影片卡片。
+- `categories.html`：分类总览页。
+- `categories/`：10 个真实独立分类页，完整覆盖全部影片卡片。
+- `ranking.html`：高分电影排行榜入口。
+- `search.html`：站内搜索页。
+- `movies/`：2000 个影片详情页。
+- `assets/`：站点 CSS 与交互 JS。
+
+## 封面图使用方式
+
+本包不包含 JPG 图片。请把 `1.jpg` 到 `150.jpg` 放到网站顶级目录，影片会按顺序循环引用这些图片。
